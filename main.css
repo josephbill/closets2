@@ -1,0 +1,38 @@
+
+
+
+#pitch {
+
+
+	background-image: url('images/hands.jpeg');
+   
+	padding: 146px 0px;
+	/*if background images repeats then use*/
+	 background-image: no repeat; /*o stop repetation and */
+	 background-size: cover;
+	background-position: center;
+}
+body {
+
+   background-color:  #EFEBE9;
+
+}
+
+
+
+
+.container .jumbotron,
+.container-fluid .jumbotron{
+	border-radius: 0px;
+
+}
+
+
+
+
+
+#billy{
+
+    color: #827717;
+
+}

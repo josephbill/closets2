@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <!-- the following code sets browser to understand diff languages -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <!-- /define bootstrap path in the css link as the line below -->
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/jquery-ui.min.css">
+    <title>CLOSETS</title>
+    <script src="bootstrap-3.3.5-dist/js/angular.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/appcontroller.js"></script>
+  <!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper" id="closetss">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--here add logo which also serves as home button  -->
+              <a class="navbar-brand" href="#closetss">Closets</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#closets">My closet</a></li>
+                <li><a href="#">Items</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">Contact</a></li>
+              <!--  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    
+    <!--everything above this comment is code for the navbar -->
+    <!--the container-fluid comment increases the width of the image -->
+    <div class="container-fluid">
+        <section class="row text-center jumbotron" id="pitch">
+            <h1 id="billy">Closets<br>ADD | TRADE | ACQUIRE</h1>
+            <a href="#closets" class="btn btn-primary btn-lg">My closet</a> 
+        </section>
+    </div>
+   
+
+        
+        <!-- code your javascript code here before the closing body tag script tag is used /-->
+        <!--the following section is where all links are added when using jquery link to the html and other file-->
+        <!-- ajax link enable users to reload page without seeing the actual reloading -->
+        <script src="jquery-1.11.3.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/jqueryui.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/jquerywork.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+        </body>
+
+</html>
