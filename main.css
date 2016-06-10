@@ -4,7 +4,7 @@
 #pitch {
 
 
-	background-image: url('images/hands.jpeg');
+	background-image: url('images/8.jpg');
    
 	padding: 146px 0px;
 	/*if background images repeats then use*/
@@ -13,10 +13,11 @@
 	background-position: center;
 }
 body {
-
+   background-image: url('images/8.jpg');
    background-color:  ##80deea;
 
 }1
+
 
 
 #billy{
