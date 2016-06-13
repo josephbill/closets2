@@ -8,10 +8,10 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 <!-- link to css -->
-<link rel="stylesheet" type="text/css" href="../css/enter.css">
+<link rel="stylesheet" type="text/css" href="../main.css">
 	<title>closets</title>
 </head>
-<body>
+<body >
 <!-- navbar -->
 <div class="navbar-wrapper" id="closetss">
       <div class="container">
@@ -41,10 +41,11 @@
             </div> -->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="../views/mycloset.html">My closet</a></li>
+           <!--    <li class="active"><a><img src="../images/logo.png" class="image-rounded"></a></li> -->
+                <li class="active"><a href="../index.html">my closet</a></li>
                 <li><a href="#">Items</a></li>
-                <li><a href="views/about.html">about</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="views/notifications.html">Notifications</a></li>
+                <li><a href="views/settings.html">Settings</a></li>
               <!--  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -69,7 +70,50 @@
     </div>
 
 
+  <!-- adding upload item section  -->
+ 
 
+ <div class="row">
+  <div class="col-md-4">
+    <a href="" class="thumbnail" "img-rounded">
+      
+      <img src="city.jpg" alt="" style="width:150px;height:150px">
+      
+    </a>
+    <button class="btn btn primary">browse</button>
+  </div>
+
+
+  <div class="col-md-4">
+    <form>
+    <input placeholder= "enter item name"/> 
+    <br>
+    <!-- add dropdown here to show a list of categories of different items -->
+      <select>Select category
+        <option value="cars">Cars</option>
+        <option value="beauty">Beauty</option>
+        <option value="electronics">Electronics</option>
+        <option value="Furniture">Furniture</option>
+
+
+      </select>
+
+    <br>
+    
+    <td><input placeholder = "desired trade item"/></td>
+       <br>
+       <td><input placeholder = "Market Value"/> </td>
+
+   <button class="btn btn primary" style="background-color: red;">submit to site </button>
+
+    </form>
+    
+  </div>
+</div>
+
+<!-- uploaded items should map themselves here  -->
+
+<p class="text-center"> no items posted yet </p>
 
 
 
