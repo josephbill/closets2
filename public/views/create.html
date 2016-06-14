@@ -1,0 +1,119 @@
+<!DOCTYPE >
+<html ng-app>
+ <head>
+ <!-- linking to bootstrap -->
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- link to css -->
+<link rel="stylesheet" type="text/css" href="../css/create.css">
+  <title>closets</title>
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar-wrapper" id="closetss">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--here add logo which also serves as home button  -->
+              <!-- <a class="navbar-brand" href="#closetss">Closets</a>
+               <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+            </div> -->
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+               <li><a href="../index.html">home</a></li>
+                <li class="active"><a href="enter.html">My closet</a></li>
+               
+                <li><a href="enter.hmtl">Items</a></li>
+                <li><a href="about.html">about</a></li>
+                
+              <!--  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+               
+        </div>
+       
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+<!-- sign up table -->
+
+<div class="container" >
+
+
+
+<table class="table">
+<thead>
+  <tr>
+  <th>Username</th>
+  <th>Phone Number</th>
+  <th>Password</th>
+  <th>Confirm Password : </th>
+  <th>select profile photo</th>
+  </tr>
+
+  <tbody>
+   <tr>
+    <td><input class="form-control" ng-model="test" ></td>
+    <td><input class="form-control"></td>
+    <td><input class="form-control" type="password" size="25"></td>
+    <td><input class="form-control" type="password" size="25"></td>
+    </td>
+    
+       <td><button class="btn-primary">browse</button></td>
+
+
+    <!--this code identifies which table or collection the user wants to remove-->
+    <td><button class="btn-primary">Sign-up
+      
+    </button></td>    
+    <td><button class="btn btn danger">Quit</button></td>
+
+    </tr>
+
+
+   </tbody>
+
+
+ 
+</thead>
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</body>
+</html>
